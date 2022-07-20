@@ -1,5 +1,7 @@
 # skore-challenge
 
+Desafio técnico realizado para a empresa Skore.
+
 ## Build Setup
 
 ```bash
