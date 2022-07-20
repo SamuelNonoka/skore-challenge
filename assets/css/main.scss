@@ -1,0 +1,32 @@
+$primary: #5f4b8b;
+$secondary: #2180a7;
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  width: 1264px;
+  opacity: 1;
+  transition: 3s all;
+  margin: auto;
+}
+
+.container.loading {
+  opacity: 0;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.elevation:hover {
+  box-shadow: -3px 3px 5px #00000040;
+  transform: translate(1px, -1px);
+  transition: .5s all;
+}
